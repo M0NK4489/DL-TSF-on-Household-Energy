@@ -117,3 +117,67 @@ The final experiment artifacts are retained alongside the notebooks:
 - `metrics/Context Forecasting/` contains the 96 context-enabled evaluation runs.
 - `metrics/No Context Forecasting/` contains the 48 no-context generative evaluation runs.
 - `metrics/` also contains the context and no-context combined workbooks, `forecast_metric_heatmaps_v2_rebuilt.xlsx`, and the profile-band collages.
+
+
+Because README.md and metrics/ are at the same level, use paths relative to the README:
+![Description](metrics/profile_band_collages/image_name.png)
+A clickable image that opens at full resolution uses:
+[![Description](metrics/profile_band_collages/image_name.png)](metrics/profile_band_collages/image_name.png)
+Here is a complete section ready to add near the end of your README:
+## Forecast Profile Collages
+
+Each collage compares the real and forecast household profiles across the four sampling frequencies and three forecast horizons. Select an image to open it at full resolution.
+
+### Context-Enabled Generative Models
+
+#### RNN-Diffusion
+
+[![Context RNN-Diffusion forecasts](metrics/profile_band_collages/context_rnn_diffusion_profile_bands.png)](metrics/profile_band_collages/context_rnn_diffusion_profile_bands.png)
+
+#### Transformer-Diffusion
+
+[![Context Transformer-Diffusion forecasts](metrics/profile_band_collages/context_transformer_diffusion_profile_bands.png)](metrics/profile_band_collages/context_transformer_diffusion_profile_bands.png)
+
+#### RNN-VAE
+
+[![Context RNN-VAE forecasts](metrics/profile_band_collages/context_rnn_vae_profile_bands.png)](metrics/profile_band_collages/context_rnn_vae_profile_bands.png)
+
+#### Transformer-VAE
+
+[![Context Transformer-VAE forecasts](metrics/profile_band_collages/context_transformer_vae_profile_bands.png)](metrics/profile_band_collages/context_transformer_vae_profile_bands.png)
+
+### No-Context Generative Models
+
+#### RNN-Diffusion
+
+[![No-context RNN-Diffusion forecasts](metrics/profile_band_collages/no_context_rnn_diffusion_profile_bands.png)](metrics/profile_band_collages/no_context_rnn_diffusion_profile_bands.png)
+
+#### Transformer-Diffusion
+
+[![No-context Transformer-Diffusion forecasts](metrics/profile_band_collages/no_context_transformer_diffusion_profile_bands.png)](metrics/profile_band_collages/no_context_transformer_diffusion_profile_bands.png)
+
+#### RNN-VAE
+
+[![No-context RNN-VAE forecasts](metrics/profile_band_collages/no_context_rnn_vae_profile_bands.png)](metrics/profile_band_collages/no_context_rnn_vae_profile_bands.png)
+
+#### Transformer-VAE
+
+[![No-context Transformer-VAE forecasts](metrics/profile_band_collages/no_context_transformer_vae_profile_bands.png)](metrics/profile_band_collages/no_context_transformer_vae_profile_bands.png)
+
+### Discriminative Baselines
+
+#### Temporal Fusion Transformer
+
+[![TFT forecasts](metrics/profile_band_collages/baseline_tft_profile_bands.png)](metrics/profile_band_collages/baseline_tft_profile_bands.png)
+
+#### N-HiTS
+
+[![N-HiTS forecasts](metrics/profile_band_collages/baseline_nhits_profile_bands.png)](metrics/profile_band_collages/baseline_nhits_profile_bands.png)
+
+#### TSMixer
+
+[![TSMixer forecasts](metrics/profile_band_collages/baseline_tsmixer_profile_bands.png)](metrics/profile_band_collages/baseline_tsmixer_profile_bands.png)
+
+#### iTransformer
+
+[![iTransformer forecasts](metrics/profile_band_collages/baseline_itransformer_profile_bands.png)](metrics/profile_band_collages/baseline_itransformer_profile_bands.png)
