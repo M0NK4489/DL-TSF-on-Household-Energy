@@ -1,0 +1,18 @@
+{
+  "completed_at": "2026-08-02T10:29:37",
+  "checkpoint": "forecast-nocontext-rnn-vae__freq-1H__hor-24h__ctx-0__seq-24__seed-0__mode-nocontext_core.pt",
+  "quantiles": [
+    0.1,
+    0.5,
+    0.9
+  ],
+  "metrics": {
+    "KL_hist": 0.3161134292966077,
+    "DTW_mean": 8.494512288831174,
+    "MAE_median": 0.5061668753623962,
+    "RMSE_mean": 0.8730813980073168,
+    "PeakMAE": 1.240800142288208,
+    "QuantileLoss": 0.22001582384109497,
+    "Winkler": 4.069640636444092
+  }
+}

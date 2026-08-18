@@ -1,0 +1,36 @@
+{
+  "model": "TRAN-DIFF",
+  "model_kind": "transformer_diffusion",
+  "checkpoint_name": "forecast-nocontext-transformer-diffusion__freq-30min__hor-28d__ctx-0__seq-1344__seed-0__mode-nocontext_core.pt",
+  "checkpoint_path": "E:\\Desktop\\UNSW\\Thesis\\Project\\sorted\\checkpoints\\generative\\forecast-nocontext-transformer-diffusion__freq-30min__hor-28d__ctx-0__seq-1344__seed-0__mode-nocontext_core.pt",
+  "exported_at": "2026-08-02T16:13:46",
+  "FREQ": "30min",
+  "PRIMARY_HORIZON": "28d",
+  "CONTEXT_LEN": 0,
+  "SEQ_LEN": 1344,
+  "WINDOW_STRIDE": 1344,
+  "EVAL_POOL": "validation",
+  "PLOT_N": 512,
+  "EVAL_SEED": 10123,
+  "SAMPLES": 200,
+  "EVAL_BATCH_SIZE": 8,
+  "quantiles": [
+    0.1,
+    0.5,
+    0.9
+  ],
+  "ALPHA_PI": 0.2,
+  "interval_percent": 80.0,
+  "elapsed_seconds": 9150.382721100003,
+  "point_forecast_for_mae_peak_kl_dtw": "q0.50",
+  "point_forecast_for_rmse": "sample mean",
+  "metrics": {
+    "KL_hist": 1.8813884270347132,
+    "DTW_mean": 279.920489192009,
+    "MAE_median": 0.2502942681312561,
+    "RMSE_mean": 0.48377951411272774,
+    "PeakMAE": 2.009730100631714,
+    "QuantileLoss": 0.09660907834768295,
+    "Winkler": 1.6468009948730469
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "model": "RNN-DIFF",
+  "model_kind": "rnn_diffusion",
+  "checkpoint_name": "forecast-nocontext-rnn-diffusion__freq-30min__hor-7d__ctx-0__seq-336__seed-0__mode-nocontext_core.pt",
+  "checkpoint_path": "E:\\Desktop\\UNSW\\Thesis\\Project\\sorted\\checkpoints\\generative\\forecast-nocontext-rnn-diffusion__freq-30min__hor-7d__ctx-0__seq-336__seed-0__mode-nocontext_core.pt",
+  "exported_at": "2026-08-02T17:50:17",
+  "FREQ": "30min",
+  "PRIMARY_HORIZON": "7d",
+  "CONTEXT_LEN": 0,
+  "SEQ_LEN": 336,
+  "WINDOW_STRIDE": 336,
+  "EVAL_POOL": "validation",
+  "PLOT_N": 512,
+  "EVAL_SEED": 10123,
+  "SAMPLES": 200,
+  "EVAL_BATCH_SIZE": 64,
+  "quantiles": [
+    0.1,
+    0.5,
+    0.9
+  ],
+  "ALPHA_PI": 0.2,
+  "interval_percent": 80.0,
+  "elapsed_seconds": 507.39048190000176,
+  "point_forecast_for_mae_peak_kl_dtw": "q0.50",
+  "point_forecast_for_rmse": "sample mean",
+  "metrics": {
+    "KL_hist": 0.41748487772771076,
+    "DTW_mean": 72.11904826015234,
+    "MAE_median": 0.2406463921070099,
+    "RMSE_mean": 0.4411810862290958,
+    "PeakMAE": 1.3627474308013916,
+    "QuantileLoss": 0.0947236642241478,
+    "Winkler": 1.6384782791137695
+  }
+}

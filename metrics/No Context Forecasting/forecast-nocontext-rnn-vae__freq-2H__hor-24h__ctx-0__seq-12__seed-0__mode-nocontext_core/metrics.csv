@@ -1,0 +1,31 @@
+field,value
+model,RNN-VAE
+model_kind,rnn_vae
+checkpoint_name,forecast-nocontext-rnn-vae__freq-2H__hor-24h__ctx-0__seq-12__seed-0__mode-nocontext_core.pt
+checkpoint_path,E:\Desktop\UNSW\Thesis\Project\sorted\checkpoints\generative\forecast-nocontext-rnn-vae__freq-2H__hor-24h__ctx-0__seq-12__seed-0__mode-nocontext_core.pt
+exported_at,2026-08-02T10:47:19
+FREQ,2H
+PRIMARY_HORIZON,24h
+CONTEXT_LEN,0
+SEQ_LEN,12
+WINDOW_STRIDE,12
+EVAL_POOL,validation
+PLOT_N,512
+EVAL_SEED,10123
+SAMPLES,200
+EVAL_BATCH_SIZE,64
+quantiles,"[0.1, 0.5, 0.9]"
+ALPHA_PI,0.2
+interval_percent,80.0
+elapsed_seconds,1.8953354000041145
+point_forecast_for_mae_peak_kl_dtw,q0.50
+point_forecast_for_rmse,sample mean
+,
+metric,value
+KL_hist,0.26026978104810716
+DTW_mean,8.383353814482689
+MAE_median,0.9632032513618469
+RMSE_mean,1.6316026317542651
+PeakMAE,1.9202215671539307
+QuantileLoss,0.4118627607822418
+Winkler,7.539867401123047

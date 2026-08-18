@@ -1,0 +1,31 @@
+field,value
+model,TRAN-DIFF
+model_kind,transformer_diffusion
+checkpoint_name,forecast-transformer-diffusion__freq-1H__hor-24h__ctx-48__seq-24__seed-0__mode-core.pt
+checkpoint_path,E:\Desktop\UNSW\Thesis\Project\sorted\checkpoints\generative\forecast-transformer-diffusion__freq-1H__hor-24h__ctx-48__seq-24__seed-0__mode-core.pt
+exported_at,2026-08-01T20:31:22
+FREQ,1H
+PRIMARY_HORIZON,24h
+CONTEXT_LEN,48
+SEQ_LEN,24
+WINDOW_STRIDE,24
+EVAL_POOL,validation
+PLOT_N,512
+EVAL_SEED,10123
+SAMPLES,200
+EVAL_BATCH_SIZE,64
+quantiles,"[0.1, 0.5, 0.9]"
+ALPHA_PI,0.2
+interval_percent,80.0
+elapsed_seconds,899.5048961999998
+point_forecast_for_mae_peak_kl_dtw,q0.50
+point_forecast_for_rmse,sample mean
+,
+metric,value
+KL_hist,0.06608976158689295
+DTW_mean,5.475269788733385
+MAE_median,0.28796905279159546
+RMSE_mean,0.5850978256239221
+PeakMAE,0.8623520135879517
+QuantileLoss,0.0982922911643982
+Winkler,1.5089235305786133

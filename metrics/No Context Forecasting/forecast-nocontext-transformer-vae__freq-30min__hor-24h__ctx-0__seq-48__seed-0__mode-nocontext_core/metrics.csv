@@ -1,0 +1,31 @@
+field,value
+model,TRAN-VAE
+model_kind,transformer_vae
+checkpoint_name,forecast-nocontext-transformer-vae__freq-30min__hor-24h__ctx-0__seq-48__seed-0__mode-nocontext_core.pt
+checkpoint_path,E:\Desktop\UNSW\Thesis\Project\sorted\checkpoints\generative\forecast-nocontext-transformer-vae__freq-30min__hor-24h__ctx-0__seq-48__seed-0__mode-nocontext_core.pt
+exported_at,2026-08-02T11:15:44
+FREQ,30min
+PRIMARY_HORIZON,24h
+CONTEXT_LEN,0
+SEQ_LEN,48
+WINDOW_STRIDE,48
+EVAL_POOL,validation
+PLOT_N,512
+EVAL_SEED,10123
+SAMPLES,200
+EVAL_BATCH_SIZE,64
+quantiles,"[0.1, 0.5, 0.9]"
+ALPHA_PI,0.2
+interval_percent,80.0
+elapsed_seconds,2.935946600002353
+point_forecast_for_mae_peak_kl_dtw,q0.50
+point_forecast_for_rmse,sample mean
+,
+metric,value
+KL_hist,0.3296179728388846
+DTW_mean,8.204308254644275
+MAE_median,0.2532995045185089
+RMSE_mean,0.4646150838984519
+PeakMAE,0.8397164940834045
+QuantileLoss,0.11451487988233566
+Winkler,2.1689488887786865

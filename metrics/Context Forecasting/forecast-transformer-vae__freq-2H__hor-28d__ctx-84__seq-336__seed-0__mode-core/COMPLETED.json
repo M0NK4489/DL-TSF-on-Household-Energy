@@ -1,0 +1,18 @@
+{
+  "completed_at": "2026-08-02T03:57:40",
+  "checkpoint": "forecast-transformer-vae__freq-2H__hor-28d__ctx-84__seq-336__seed-0__mode-core.pt",
+  "quantiles": [
+    0.1,
+    0.5,
+    0.9
+  ],
+  "metrics": {
+    "KL_hist": 0.06292004071218912,
+    "DTW_mean": 159.3791819177568,
+    "MAE_median": 0.6515008807182312,
+    "RMSE_mean": 1.2291119875223033,
+    "PeakMAE": 3.039436101913452,
+    "QuantileLoss": 0.32001349329948425,
+    "Winkler": 6.34290075302124
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "model": "TRAN-VAE",
+  "model_kind": "transformer_vae",
+  "checkpoint_name": "forecast-transformer-vae__freq-30min__hor-7d__ctx-336__seq-336__seed-0__mode-core.pt",
+  "checkpoint_path": "E:\\Desktop\\UNSW\\Thesis\\Project\\sorted\\checkpoints\\generative\\forecast-transformer-vae__freq-30min__hor-7d__ctx-336__seq-336__seed-0__mode-core.pt",
+  "exported_at": "2026-08-02T09:58:32",
+  "FREQ": "30min",
+  "PRIMARY_HORIZON": "7d",
+  "CONTEXT_LEN": 336,
+  "SEQ_LEN": 336,
+  "WINDOW_STRIDE": 336,
+  "EVAL_POOL": "validation",
+  "PLOT_N": 512,
+  "EVAL_SEED": 10123,
+  "SAMPLES": 200,
+  "EVAL_BATCH_SIZE": 32,
+  "quantiles": [
+    0.1,
+    0.5,
+    0.9
+  ],
+  "ALPHA_PI": 0.2,
+  "interval_percent": 80.0,
+  "elapsed_seconds": 15.28751999999804,
+  "point_forecast_for_mae_peak_kl_dtw": "q0.50",
+  "point_forecast_for_rmse": "sample mean",
+  "metrics": {
+    "KL_hist": 0.08908122954126224,
+    "DTW_mean": 43.312703620642424,
+    "MAE_median": 0.16311083734035492,
+    "RMSE_mean": 0.3197350163416097,
+    "PeakMAE": 0.9896592497825623,
+    "QuantileLoss": 0.08025828003883362,
+    "Winkler": 1.5921941995620728
+  }
+}

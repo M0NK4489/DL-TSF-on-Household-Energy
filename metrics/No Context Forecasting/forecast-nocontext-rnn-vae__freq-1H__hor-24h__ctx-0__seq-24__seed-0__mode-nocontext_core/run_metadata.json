@@ -1,0 +1,36 @@
+{
+  "model": "RNN-VAE",
+  "model_kind": "rnn_vae",
+  "checkpoint_name": "forecast-nocontext-rnn-vae__freq-1H__hor-24h__ctx-0__seq-24__seed-0__mode-nocontext_core.pt",
+  "checkpoint_path": "E:\\Desktop\\UNSW\\Thesis\\Project\\sorted\\checkpoints\\generative\\forecast-nocontext-rnn-vae__freq-1H__hor-24h__ctx-0__seq-24__seed-0__mode-nocontext_core.pt",
+  "exported_at": "2026-08-02T10:29:37",
+  "FREQ": "1H",
+  "PRIMARY_HORIZON": "24h",
+  "CONTEXT_LEN": 0,
+  "SEQ_LEN": 24,
+  "WINDOW_STRIDE": 24,
+  "EVAL_POOL": "validation",
+  "PLOT_N": 512,
+  "EVAL_SEED": 10123,
+  "SAMPLES": 200,
+  "EVAL_BATCH_SIZE": 64,
+  "quantiles": [
+    0.1,
+    0.5,
+    0.9
+  ],
+  "ALPHA_PI": 0.2,
+  "interval_percent": 80.0,
+  "elapsed_seconds": 1.9644505999967805,
+  "point_forecast_for_mae_peak_kl_dtw": "q0.50",
+  "point_forecast_for_rmse": "sample mean",
+  "metrics": {
+    "KL_hist": 0.3161134292966077,
+    "DTW_mean": 8.494512288831174,
+    "MAE_median": 0.5061668753623962,
+    "RMSE_mean": 0.8730813980073168,
+    "PeakMAE": 1.240800142288208,
+    "QuantileLoss": 0.22001582384109497,
+    "Winkler": 4.069640636444092
+  }
+}

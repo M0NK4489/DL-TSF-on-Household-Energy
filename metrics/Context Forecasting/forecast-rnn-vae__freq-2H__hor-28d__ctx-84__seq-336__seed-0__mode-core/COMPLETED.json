@@ -1,0 +1,18 @@
+{
+  "completed_at": "2026-08-02T03:27:13",
+  "checkpoint": "forecast-rnn-vae__freq-2H__hor-28d__ctx-84__seq-336__seed-0__mode-core.pt",
+  "quantiles": [
+    0.1,
+    0.5,
+    0.9
+  ],
+  "metrics": {
+    "KL_hist": 0.0757770104559971,
+    "DTW_mean": 163.06522845476866,
+    "MAE_median": 0.6486234664916992,
+    "RMSE_mean": 1.2147119120943932,
+    "PeakMAE": 3.3995578289031982,
+    "QuantileLoss": 0.31593573093414307,
+    "Winkler": 6.234953880310059
+  }
+}

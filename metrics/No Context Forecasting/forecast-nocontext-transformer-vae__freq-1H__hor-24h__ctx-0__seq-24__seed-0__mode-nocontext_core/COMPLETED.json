@@ -1,0 +1,18 @@
+{
+  "completed_at": "2026-08-02T10:40:19",
+  "checkpoint": "forecast-nocontext-transformer-vae__freq-1H__hor-24h__ctx-0__seq-24__seed-0__mode-nocontext_core.pt",
+  "quantiles": [
+    0.1,
+    0.5,
+    0.9
+  ],
+  "metrics": {
+    "KL_hist": 0.31933562821602907,
+    "DTW_mean": 8.05441726744175,
+    "MAE_median": 0.4830436706542969,
+    "RMSE_mean": 0.8727324512391212,
+    "PeakMAE": 1.3308196067810059,
+    "QuantileLoss": 0.21517853438854218,
+    "Winkler": 4.040137767791748
+  }
+}
